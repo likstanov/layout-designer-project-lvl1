@@ -45,15 +45,6 @@ body {
   background-color: var(--white);
 }
 
-.container {
-  width: 1110px;
-  margin: 0 auto;
-}
-
-section {
-  padding: 100px 0;
-}
-
 h1,
 h2,
 h3 {
@@ -72,4 +63,88 @@ h2 {
 
 h3 {
   font-size: 34px;;
+}
+
+.text-basic {
+  color: var(--basic);
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.bg-questions {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-questions::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .1;
+}
+
+.header {
+  background-color: var(--light);
+  max-height: 900px;
+}
+
+.header-title {
+  z-index: 200;
+}
+
+.header-image {
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  right: -270px;
+  z-index: 100;
+}
+
+.container {
+  position: relative;
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__description {
+  display: flex;
+  margin-top: 185px;
+}
+
+.header__description-text {
+  width: calc(50% - 30px);
+  margin-bottom: 40px;
+}
+
+.header__description-text:first-child {
+  margin-right: 30px;
+}
+
+.header__description-link {
+  margin-top: 40px;
+}
+
+.header__description-link a {
+  padding: 12px 24px;
+  background-color: var(--basic);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--white);
 }
