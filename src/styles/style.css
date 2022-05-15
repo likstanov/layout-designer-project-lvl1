@@ -72,6 +72,14 @@ h3 {
   color: var(--dark);
 }
 
+.text-orange {
+  color: var(--basic);
+}
+
+.text-center {
+  text-align: center;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -127,8 +135,7 @@ h3 {
 }
 
 .header-description-text {
-  width: calc(50% - 30px);
-  margin-bottom: 40px;
+  width: 50%;
 }
 
 .header-description-text:first-child {
@@ -146,4 +153,17 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
   color: var(--white);
+}
+
+.what-is {
+  background-color: var(--white);
+}
+
+.what-is h2 {
+  margin-bottom: 27px;
+}
+
+.video {
+  margin: 30px auto 0;
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
