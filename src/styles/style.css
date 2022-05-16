@@ -64,6 +64,10 @@ h3 {
   font-size: 34px;
 }
 
+.text-white {
+  color: var(--white);
+}
+
 .text-basic {
   color: var(--basic);
 }
@@ -107,6 +111,7 @@ h3 {
 .header {
   background-color: var(--light);
   max-height: 914px;
+  width: 100%;
 }
 
 .header-title {
@@ -156,6 +161,7 @@ h3 {
 }
 
 .what-is {
+  height: 814px;
   background-color: var(--white);
 }
 
@@ -166,4 +172,66 @@ h3 {
 .video {
   margin: 30px auto 0;
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+ #navigation {
+  background-color: var(--basic-dark);
+}
+
+.navigation-title h2 {
+  font-size: 52px;
+}
+
+.navigation-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: var(--light);
+}
+
+.card:hover {
+  background-color: var(--basic);
+}
+
+.card,
+.navigation-title {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.card-subtitle {
+  margin-bottom: 40px;
+  font-family: Neucha, cursive;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--basic-dark);
+}
+
+.card-title {
+  font-size: 34px;
+  color: var(--basic);
+}
+
+.card:hover .card-subtitle,
+.card:hover .card-title,
+.card:hover .card-text {
+  color: var(--white);
+}
+
+.card-text {
+  margin-top: 16px;
+}
+
+.card-link {
+  display: flex;
+  align-self: stretch;
+  text-decoration: none;
+  color: var(--basic-dark);
 }
