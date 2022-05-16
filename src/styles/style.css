@@ -50,6 +50,7 @@ h3 {
   font-family: Neucha, cursive;
   font-weight: 400;
   line-height: 1.2em;
+  color: var(--basic);
 }
 
 h1 {
@@ -80,6 +81,34 @@ h3 {
   color: var(--basic);
 }
 
+.text-half-white {
+  color: var(--half-white);
+}
+
+.text-half-dark {
+  color: var(--half-dark);
+}
+
+.text-brown {
+  color: var(--brown);
+}
+
+.bg-brown {
+  background-color: var(--brown);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-light {
+  background-color: var(--light);
+}
+
+.bg-basic-dark {
+  background-color: var(--basic-dark);
+}
+
 .text-center {
   text-align: center;
 }
@@ -90,6 +119,10 @@ h3 {
 
 .pb-100 {
   padding-bottom: 100px;
+}
+
+.ml-30 {
+  margin-left: 30px;
 }
 
 .bg-questions {
@@ -109,7 +142,6 @@ h3 {
 }
 
 .header {
-  background-color: var(--light);
   max-height: 914px;
   width: 100%;
 }
@@ -162,7 +194,6 @@ h3 {
 
 .what-is {
   height: 814px;
-  background-color: var(--white);
 }
 
 .what-is h2 {
@@ -172,10 +203,6 @@ h3 {
 .video {
   margin: 30px auto 0;
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
-}
-
-#navigation {
-  background-color: var(--basic-dark);
 }
 
 .navigation-title h2 {
@@ -235,10 +262,6 @@ h3 {
   color: var(--white);
 }
 
-#ikea-effect {
-  background-color: var(--light);
-}
-
 .bias {
   display: flex;
   flex-direction: row;
@@ -252,11 +275,6 @@ h3 {
 .bias-about-subtitle {
   font-family: Neucha, cursive;
   font-size: 24px;
-  color: var(--half-dark);
-}
-
-.bias-about {
-  margin-left: 30px;
 }
 
 .bias-about-text {
@@ -277,8 +295,6 @@ h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
-  color: var(--white);
   text-transform: uppercase;
   padding: 5px 10px;
-  background-color: var(--brown);
 }
