@@ -174,7 +174,7 @@ h3 {
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
- #navigation {
+#navigation {
   background-color: var(--basic-dark);
 }
 
@@ -184,8 +184,7 @@ h3 {
 
 .navigation-cards {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: wrap;
   justify-content: space-between;
 }
 
@@ -194,10 +193,6 @@ h3 {
   flex-direction: column;
   padding: 24px;
   background-color: var(--light);
-}
-
-.card:hover {
-  background-color: var(--basic);
 }
 
 .card,
@@ -219,12 +214,6 @@ h3 {
   color: var(--basic);
 }
 
-.card:hover .card-subtitle,
-.card:hover .card-title,
-.card:hover .card-text {
-  color: var(--white);
-}
-
 .card-text {
   margin-top: 16px;
 }
@@ -234,4 +223,14 @@ h3 {
   align-self: stretch;
   text-decoration: none;
   color: var(--basic-dark);
+}
+
+.card:hover {
+  background-color: var(--basic);
+}
+
+.card:hover .card-subtitle,
+.card:hover .card-title,
+.card:hover .card-text {
+  color: var(--white);
 }
