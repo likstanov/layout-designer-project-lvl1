@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+*:focus {
+  outline: none;
+}
+
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
@@ -109,6 +113,10 @@ h3 {
   background-color: var(--basic-dark);
 }
 
+.bg-orange {
+  background-color: var(--basic);
+}
+
 .text-center {
   text-align: center;
 }
@@ -147,7 +155,7 @@ h3 {
 
 .header {
   max-height: 914px;
-  width: 100%;
+  height: 100vh;
 }
 
 .header-title {
@@ -301,4 +309,77 @@ h3 {
   font-size: 14px;
   text-transform: uppercase;
   padding: 5px 10px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px;
+  height: 190px;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  width: 50%;
+}
+
+.subscribe-agreement {
+  font-size: 12px;
+}
+
+.subsribe-email {
+  height: 50px;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  border-right: none;
+  border-radius: 0;
+}
+
+input.subsribe-email::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13.1px;
+  color: #757575;
+  opacity: 0.2;
+}
+
+.form-input {
+  margin-top: 9px;
+  display: flex;
+}
+
+.subscribe-submit {
+  width: 70px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-submit::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url("../images/send.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-information {
+  margin-top: 76px;
+  font-size: 14px;
+}
+
+.about-information p {
+  margin-bottom: 16px;
+}
+
+.about-information a {
+  color: #1085c5;
 }
