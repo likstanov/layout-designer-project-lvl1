@@ -139,19 +139,19 @@ h3 {
   margin-top: 185px;
 }
 
-.header-description-text {
+.description-text {
   width: 50%;
 }
 
-.header-description-text:first-child {
+.description-text:first-child {
   margin-right: 30px;
 }
 
-.header-description-link {
+.description-link {
   margin-top: 40px;
 }
 
-.header-description-link a {
+.description-link a {
   padding: 12px 24px;
   background-color: var(--basic);
   text-decoration: none;
@@ -233,4 +233,52 @@ h3 {
 .card:hover .card-title,
 .card:hover .card-text {
   color: var(--white);
+}
+
+#ikea-effect {
+  background-color: var(--light);
+}
+
+.bias {
+  display: flex;
+  flex-direction: row;
+}
+
+.bias-image {
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+  vertical-align: middle;
+}
+
+.bias-about-subtitle {
+  font-family: Neucha, cursive;
+  font-size: 24px;
+  color: var(--half-dark);
+}
+
+.bias-about {
+  margin-left: 30px;
+}
+
+.bias-about-text {
+  margin-top: 30px;
+  font-family: Neucha, cursive;
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.bias-how-work {
+  display: flex;
+}
+
+.bias-how-work-title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 5px 10px;
+  background-color: var(--brown);
 }
