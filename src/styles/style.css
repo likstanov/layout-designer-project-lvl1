@@ -125,6 +125,10 @@ h3 {
   margin-left: 30px;
 }
 
+.mr-30 {
+  margin-right: 30px;
+}
+
 .bg-questions {
   position: relative;
   overflow: hidden;
